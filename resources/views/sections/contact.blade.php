@@ -1,5 +1,5 @@
 <!-- section -->
-<section id="contact" class="dark_bg_blue layout_padding cross_layout padding_top_0 margin_top_0">
+<section id="contact" class="dark_bg_orange layout_padding cross_layout margin_top_0">
     <div class="container">
        <div class="row">
          <div class="col-md-12">

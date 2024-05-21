@@ -206,7 +206,7 @@ button {
 
 .layout_padding {
 	padding-top: 90px;
-	padding-bottom: 90px;
+	/* padding-bottom: 90px; */
 }
 
 .layout_padding_2 {
@@ -1971,9 +1971,10 @@ p.large {
 }
 
 .cross_layout {
-    min-height: 780px;
-    margin-top: 300px;
-    position: relative;
+    min-height: 850px;
+    /* margin-top: 300px; */
+	margin-top: 150px;
+    /* position: relative; */
 }
 
 .cross_layout_o {
@@ -2021,7 +2022,7 @@ h2.heading_main {
     padding: 0;
     margin: 0;
     line-height: 90px;
-    min-width: 445px;
+	padding: 0 25px 0 25px;
     float: left;
     background: #f36b2a;
     margin-bottom: 75px;
