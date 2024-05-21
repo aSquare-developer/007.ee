@@ -1,5 +1,5 @@
 <!-- section --> 
-<div id="about" class="section layout_padding">
+<div id="about" class="section p-5">
     <div class="container">
         <div class="row">
 

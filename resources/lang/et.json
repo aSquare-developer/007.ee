@@ -3,7 +3,9 @@
     "Welcome": "Tere tulemast",
     "Description": "Imporditud (kasutatud) sõidukite ja varuosade müük.",
     "Phone number": "(+372) 55515007",
+    "Phone": "Telefon",
     "Email Address": "info@007.ee",
+    "Address": "Fortuuna 1, Tartu 50603",
     "Home": "Avaleht",
     "About us": "Meist",
     "About us description": "007 AUTOHAUS on Eesti kapitalil põhinev ettevõte, mis on asutatud aastal 2009. Firma põhitegevuseks on imporditud (kasutatud) sõidukite ja varuosade müük.",
@@ -15,5 +17,18 @@
     "Services_3": "Kaubavedu Euroopas ja Venemaal.",
     "Services_4": "Sõiduautode ja väikebusside rent ja laenutus.",
 
-    "Why Choose Us": "Miks valivad meid"
+    "Why Choose Us": "Miks valivad meid",
+    "Why Choose Us Title 1": "Kvalifitseeritud meeskond",
+    "Why Choose Us Description 1": "Kogu meie meeskonnal on palju kogemusi ja praktika kõikvõimalikes autorehitustöödes! Korralduste parandamisel või läbiviimisel pole keegi, kellele rohkemat usaldust usaldate!",
+    "Why Choose Us Title 2": "Me väärtustame oma kliente",
+    "Why Choose Us Description 2": "Tagasisaadetavatele klientidele on meil erilisi boonuseid ja allahindlusi ning alati võite oodata vastavat suhtumist ja parimat teenindust!",
+    "Why Choose Us Title 3": "Mõistlikud hinnad",
+    "Why Choose Us Description 3": "Oleme kohustatud tegema oma teenused kõigile taskukohaseks! Meil on oluline, et meie klientide autod oleksid ohutu ja töötaksid vähem raha eest!",
+    "Why Choose Us Title 4": "Kõrgekvaliteedilised autovaruosad",
+    "Why Choose Us Description 4": "Me töötame ainult kõige usaldusväärsemate edasimüüjate ja tootjatega, nii et kõik olemasolevad varuosad ja detailid on originaalsed või kvaliteetsed.",
+
+    "Partners Title": "Partnerid",
+    "Partners Description": "Edu saladus on vastastikku kasulik partnerlus. Meie firma püsipartnerid on suurimad autode müügifirmad Saksamaalt, Hollandist, Belgiast ja Baltimaadelt. Me püüdleme töötada kohusetundlikult ja kiirelt, et rahuldada meie klientide huve.",
+
+    "Contact Details": "Kontaktandmed"
 }

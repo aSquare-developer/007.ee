@@ -1,5 +1,5 @@
 <!-- section --> 
-<div class="section layout_padding padding_top_0">
+<div class="section p-5">
     <div class="container">
         <div class="row">
 

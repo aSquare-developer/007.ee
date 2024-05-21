@@ -1,5 +1,5 @@
 <!-- section -->
-<section id="contact" class="dark_bg_orange layout_padding cross_layout margin_top_0">
+<section id="contact" class="dark_bg_orange p-5">
     <div class="container">
        <div class="row">
          <div class="col-md-12">
@@ -16,12 +16,12 @@
                       <fieldset class="row">
                         <div class="col-md-12">
                             <div class="full field">
-                                <input type="email" placeholder="Email" name="email" />
+                                <input type="email" placeholder="Email" name="email" autocomplete="off"/>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="full field">
-                                <textarea placeholder="Message"></textarea>
+                                <textarea id="message" placeholder="Message"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12">
