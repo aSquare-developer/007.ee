@@ -45,10 +45,10 @@
             <ul class="list-unstyled components">
                 
                 <li class="active">
-                    <a href="#home">Home</a>
+                    <a href="#home">{{ __('Home') }}</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about">{{ __('About us')}}</a>
                 </li>
                 <li>
                     <a href="#why_choose_us">why Choose Us</a>
@@ -89,7 +89,7 @@
                      <ul>
                         <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">987-654-3210</a></li>
                         <li><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#" /><a href="#">demo@gmail.com</a></li>
-                        <li><img src="images/search_icon.png" alt="#" /></li>
+                        <li>@include('partials/language_switcher')</li>
                          <li>
                            <button type="button" id="sidebarCollapse">
                               <img src="images/menu_icon.png" alt="#" />
@@ -107,12 +107,12 @@
             <div class="row">
                <div class="col-md-5">
                   <div class="full slider_cont_section">
-                     <h4>Welcome</h4>
-                     <h3>AVALON</h3>
+                     <h4>{{ __('Welcome') }}</h4>
+                     <h3>AUTOHAUS</h3>
                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                      <div class="button_section">
                         <a href="#">Book Now</a>
-                        <a href="about.html">About Us</a>
+                        <a href="#about">{{ __('About us')}}</a>
                      </div>
                   </div>
                </div>
@@ -154,7 +154,7 @@
 
                  <div class="col-lg-4 margin_top_30">
                <div class="full margin_top_30">
-                  <h3 class="main_heading _left_side margin_top_30">About Us</h3>
+                  <h3 class="main_heading _left_side margin_top_30">{{ __('About us')}}</h3>
                   <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod..</p>
                </div>
                <div class="full button_section margin_top_30">
