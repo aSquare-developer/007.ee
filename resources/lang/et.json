@@ -1,6 +1,17 @@
 {
     "Welcome to our website!": "Tere tulemast meie veebilehele!",
     "Welcome": "Tere tulemast",
+    "Description": "Imporditud (kasutatud) sõidukite ja varuosade müük.",
+    "Phone number": "(+372) 55515007",
+    "Email Address": "info@007.ee",
     "Home": "Avaleht",
-    "About us": "Meist"
+    "About us": "Meist",
+    "About us description": "007 AUTOHAUS on Eesti kapitalil põhinev ettevõte, mis on asutatud aastal 2009. Firma põhitegevuseks on imporditud (kasutatud) sõidukite ja varuosade müük.",
+    "Contact with us": "Kirjuta meile",
+
+    "Our services": "Teenused",
+    "Services_1": "Sõidukite hooldus.",
+    "Services_2": "Sõidukite kere- ja värvimistööd.",
+    "Services_3": "Kaubavedu Euroopas ja Venemaal.",
+    "Services_4": "Sõiduautode ja väikebusside rent ja laenutus."
 }
