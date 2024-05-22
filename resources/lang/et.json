@@ -3,6 +3,7 @@
     "Welcome": "Tere tulemast",
     "Description": "Imporditud (kasutatud) sõidukite ja varuosade müük.",
     "Phone number": "(+372) 55515007",
+    "Phone number 2": "(+372) 55655007",
     "Phone": "Telefon",
     "Email Address": "info@007.ee",
     "Address": "Fortuuna 1, Tartu 50603",
@@ -30,5 +31,8 @@
     "Partners Title": "Partnerid",
     "Partners Description": "Edu saladus on vastastikku kasulik partnerlus. Meie firma püsipartnerid on suurimad autode müügifirmad Saksamaalt, Hollandist, Belgiast ja Baltimaadelt. Me püüdleme töötada kohusetundlikult ja kiirelt, et rahuldada meie klientide huve.",
 
-    "Contact Details": "Kontaktandmed"
+    "Contact Details": "Kontaktandmed",
+    "Email": "Meil",
+    "Message": "Sõnum",
+    "Send": "Saada"
 }

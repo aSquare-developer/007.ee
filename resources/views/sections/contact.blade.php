@@ -12,21 +12,22 @@
           <div class="col-md-12">
              <div class="full">
                 <div class="contact_form">
-                    <form>
+                    <form method="POST" action="{{ route('contact.send.message') }}">
+                      @csrf
                       <fieldset class="row">
                         <div class="col-md-12">
                             <div class="full field">
-                                <input type="email" placeholder="Email" name="email" autocomplete="off"/>
+                                <input type="email" placeholder="{{ __('Email') }}" name="email" autocomplete="off"/>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="full field">
-                                <textarea id="message" placeholder="Message"></textarea>
+                                <textarea name="message" placeholder="{{ __('Message') }}"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="full center">
-                                <button class="submit_bt">Send</button>
+                                <button class="submit_bt">{{ __('Send') }}</button>
                             </div>
                         </div>
                       </fieldset>

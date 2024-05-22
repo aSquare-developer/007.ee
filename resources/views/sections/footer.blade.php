@@ -18,7 +18,7 @@
               <div class="full cont_footer">
                 <p>
                   {{ __('Address') }}<br>
-                  {{ __('Phone') }}: {{ __('Phone number') }}<br>
+                  {{ __('Phone') }}: {{ __('Phone number') }} / {{ __('Phone number 2') }}<br>
                   {{ __('Email Address') }}
                </p>
               </div>
