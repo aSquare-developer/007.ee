@@ -34,5 +34,15 @@
     "Contact Details": "Kontaktandmed",
     "Email": "Meil",
     "Message": "Sõnum",
-    "Send": "Saada"
+    "Send": "Saada",
+    "Captcha Message": "Captcha sõnum",
+
+    "Email field is required": "E-posti väli on kohustuslik",
+    "Email need to be valid": "E-post peab olema kehtiv",
+
+    "Message field is required": "Sõnumiväli on kohustuslik",
+    "Message length min": "Sõnumi pikkus peab olema üle 5 tähe",
+
+    "Captcha is required": "Captcha on nõutav"
+
 }

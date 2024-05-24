@@ -17,13 +17,34 @@
                       <fieldset class="row">
                         <div class="col-md-12">
                             <div class="full field">
-                                <input type="email" placeholder="{{ __('Email') }}" name="email" autocomplete="off"/>
+                                @if ($errors->has('email'))
+                                  <span class="text-danger">
+                                    <strong>{{ $errors->first('email') }}</strong>
+                                  </span>
+                                @endif
+                                <input type="text" placeholder="{{ __('Email') }}" name="email" autocomplete="off"/>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="full field">
+                                @if ($errors->has('message'))
+                                  <span class="text-danger">
+                                    <strong>{{ $errors->first('message') }}</strong>
+                                  </span>
+                                @endif
                                 <textarea name="message" placeholder="{{ __('Message') }}"></textarea>
                             </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="full field">
+                              @if ($errors->has('captcha'))
+                                <span class="text-danger">
+                                  <strong>{{ $errors->first('captcha') }}</strong>
+                                </span>
+                              @endif
+                              {!! Captcha::img() !!}
+                              <input type="text" name="captcha" placeholder="{{ __('Captcha Message') }}"/>
+                          </div>
                         </div>
                         <div class="col-md-12">
                             <div class="full center">
